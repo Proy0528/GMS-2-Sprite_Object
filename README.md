@@ -1,6 +1,6 @@
 # GMS-2-Advanced..Sprite
 ## Sprite - https://manual.gamemaker.io/monthly/en/#t=The_Asset_Editors%2FSprites.htm
-### [스프라이트 창]
+### *[스프라이트 창]*
 ##### asset browser에서 오른쪽 키 -> create -> create sprite
 ##### <img width="226" height="298" alt="image" src="https://github.com/user-attachments/assets/c8cad40e-2cb6-4698-a2bf-b324e3aa8101" />
 ##### 이름은 ```spr_[스프라이트 이름]``` 형식으로 하기!
@@ -13,21 +13,23 @@
 ##### Collision Mask는 인게임 히트박스 설정
 ##### Manual (사용자 커스텀) 으로 하고 (Rotating) Rectangle로 해서 히트박스 설정 가능
 ##### tolerance랑 Nine Slice는 아직 몰라도 상관 없을듯
+#####
+## 
+### *[도트툴]*
+##### edit image로 가면 도트툴이 나옴
+##### <img width="100" height="205" alt="image" src="https://github.com/user-attachments/assets/246529cb-9707-4699-b06b-42acc5a7f7bd" />
+##### 위에서부터 순서대로 어니언 스키닝, 반복 유형, 재생
+##### 어니언 스키닝은 동작 모션 할때 좋음 (전/후 프레임이 흐릿하게 나옴)
+##### 프레임 드래그 해서 순서 변경 가능
+##### 프레임 위에 커서 두고 x 표시 클릭하면 삭제 가능
 ##### 
-##### 
-##### 
-##### 
-##### 
-##### 
-##### 
-##### 
-##### 
-##### 
-##### 
-##### 
-##### 
-##### 
-##### 
+##### <img width="439" height="81" alt="image" src="https://github.com/user-attachments/assets/298db39d-f1df-48e5-a488-ef5f42585ef7" />
+##### 왼쪽부터 순서대로, 그리드, 축소, 정상화, 확대, 창에 맞춤, 화면 분할 임
+##### 여기서 축소 확대 정상화 창에 맞춤은 그냥 줌인 줌아웃과 비슷함
+##### <img width="405" height="366" alt="image" src="https://github.com/user-attachments/assets/1479eee9-65a6-49d1-884b-a33485fece15" />
+##### 그리드는 스프라이트 위에 격자선을 그려줌 (스프라이트 간격 잴때 유용함)
+##### 색 설정, 격자 크기 설정, 투명률 설정(알파값), 그리고 snap 설정 가능
+##### snap은 타일 만들때 효율적임
 ##### 
 ##### 
 ##### 
