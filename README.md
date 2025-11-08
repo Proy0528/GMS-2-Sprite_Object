@@ -15,9 +15,8 @@
 ##### Tile Horizontally & Vertically는 rpg? 같은 게임에 배경 타일에 빈틈을 메꿀때 쓰이는 용도 (모바일 포트에서 많이 사용됨)
 ##### <img width="212" height="595" alt="image" src="https://github.com/user-attachments/assets/a311baaf-6ce0-46b0-9c50-b0e366863640" />
 ##### Collision Mask는 인게임 히트박스 설정
-##### Manual (사용자 커스텀) 으로 하고 Rectangle로 해서 히트박스 설정 가능
-##### tolerance는 
-##### Nine Slice는 몰라도 상관 없을듯
+##### Manual (사용자 커스텀) 으로 하고 (Rotating) Rectangle로 해서 히트박스 설정 가능
+##### tolerance랑 Nine Slice는 아직 몰라도 상관 없을듯
 ##### 
 ##### 
 ##### 
