@@ -16,8 +16,8 @@
 ##### <img width="212" height="595" alt="image" src="https://github.com/user-attachments/assets/a311baaf-6ce0-46b0-9c50-b0e366863640" />
 ##### Collision Mask는 인게임 히트박스 설정
 ##### Manual (사용자 커스텀) 으로 하고 Rectangle로 해서 히트박스 설정 가능
-##### tolerance 쪽은 잘 몰?루
-##### Nine Slice는 몰?루
+##### tolerance는 
+##### Nine Slice는 몰라도 상관 없을듯
 ##### 
 ##### 
 ##### 
