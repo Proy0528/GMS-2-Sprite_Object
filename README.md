@@ -1,6 +1,6 @@
 # GMS-2-Advanced..Sprite
 ## Sprite - https://manual.gamemaker.io/monthly/en/#t=The_Asset_Editors%2FSprites.htm
-### 스프라이트 창
+### [스프라이트 창]
 ##### asset browser에서 오른쪽 키 -> create -> create sprite
 ##### <img width="226" height="298" alt="image" src="https://github.com/user-attachments/assets/c8cad40e-2cb6-4698-a2bf-b324e3aa8101" />
 ##### 이름은 ```spr_[스프라이트 이름]``` 형식으로 하기!
