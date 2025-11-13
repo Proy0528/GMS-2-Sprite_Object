@@ -1,50 +1,52 @@
-# GMS-2-Advanced..Sprite
-## Sprite - https://manual.gamemaker.io/monthly/en/#t=The_Asset_Editors%2FSprites.htm
-### *[스프라이트 창]*
-##### asset browser에서 오른쪽 키 -> create -> create sprite
-##### <img width="226" height="298" alt="image" src="https://github.com/user-attachments/assets/c8cad40e-2cb6-4698-a2bf-b324e3aa8101" />
-##### 이름은 ```spr_[스프라이트 이름]``` 형식으로 하기!
-##### edit image에서 이미지 편집
-##### import에서 스프라이트 불러오기
-##### size에서 인게임 스프라이트 크기 & 캔버스 크기 변경
-## 
-##### <img width="212" height="536" alt="image" src="https://github.com/user-attachments/assets/041c9840-d68c-4700-8de2-eff8db486ddc" />
-##### Tile Horizontally & Vertically는 rpg? 같은 게임에 배경 타일에 빈틈을 메꿀때 쓰이는 용도 (모바일 포트에서 많이 사용됨)
-##### <img width="212" height="595" alt="image" src="https://github.com/user-attachments/assets/a311baaf-6ce0-46b0-9c50-b0e366863640" />
-## 
-##### Collision Mask는 인게임 히트박스 설정
-##### Manual (사용자 커스텀) 으로 하고 (Rotating) Rectangle로 해서 히트박스 설정 가능
-##### tolerance랑 Nine Slice는 아직 몰라도 상관 없을듯
-#####
-## 
-### *[도트툴]*
-##### edit image로 가면 도트툴이 나옴
-##### <img width="100" height="205" alt="image" src="https://github.com/user-attachments/assets/246529cb-9707-4699-b06b-42acc5a7f7bd" />
-##### 위에서부터 순서대로 어니언 스키닝, 반복 유형, 재생
-##### 어니언 스키닝은 동작 모션 할때 좋음 (전/후 프레임이 흐릿하게 나옴)
-##### 프레임 드래그 해서 순서 변경 가능
-##### 프레임 위에 커서 두고 x 표시 클릭하면 삭제 가능
-## 
-##### <img width="439" height="81" alt="image" src="https://github.com/user-attachments/assets/298db39d-f1df-48e5-a488-ef5f42585ef7" />
-##### 왼쪽부터 순서대로, 그리드, 축소, 정상화, 확대, 창에 맞춤, 화면 분할 임
-##### 여기서 축소 확대 정상화 창에 맞춤은 그냥 줌인 줌아웃과 비슷함
-## 
-##### <img width="405" height="366" alt="image" src="https://github.com/user-attachments/assets/1479eee9-65a6-49d1-884b-a33485fece15" />
-##### 그리드는 스프라이트 위에 격자선을 그려줌 (스프라이트 간격 잴때 유용함)
-##### 색 설정, 격자 크기 설정, 투명률 설정(알파값), 그리고 snap 설정 가능
-##### snap은 타일 만들때 효율적임
-## 
-##### <img width="432" height="310" alt="image" src="https://github.com/user-attachments/assets/cc88b41d-d5c8-4735-b2fa-adf604128be1" />
+---
+#### 안녕하세요, 이로현입니다.
+##### 언더테일 팬게임을 만들고 싶다는 바램을 이루기 위해 게임메이커 독학을 시작해보려고 합니다.
+##### 유니티 vs 게임메이커 뭐부터 먼저 해볼지 고민했는데,, 결국 게임 메이커부터 찍먹(?)하고 유니티도 하려고 합니다.
+##### 기초 지식과 알아두면 좋은 단축키 등등 메모하겠습니다.
+##### 그리고 앞으로 게임메이커는 겜스로 줄여 부르겠습니다.
+---
+## 겜스 기초 지식
+##### 겜스 네이버카페 : https://cafe.naver.com/crazygm
+##### 겜스 카톡 단톡방 : https://open.kakao.com/o/gqC4cnx
+##### 겜스 도움말 : https://manual.gamemaker.io/monthly/en/#t=Content.htm
+##### 도트캣님 블로그 : https://blog.naver.com/dot_cat
+##### 최적화된 tml 언더테일 엔진 : https://github.com/Panthervention/Undertale-Engine-Cheetos
+---
+### 알아두면 효율적인 단축키
+##### ctrl + (n)번 창으로 이동 -  작업 창에 ctrl + shift + (n) [n=1~9]
+##### 작업창 전부 닫기  -  오른쪽 클릭 --> windows --> 모두닫기
+##### ctrl + e : 프로젝트 파일 저장 (YYP 파일 1개 파일로 저장됨)
+##### ctrl + shift + f -> 검색 및 바꾸기 : 코딩한 단어 찾기 / 변경
+##### 레이아웃 : 인터페이스 설정 저장 및 불러오기
+---
+### 게임 메이커 창
+##### ctrl + n : 새 프로젝트 (new)
+<img width="200" height="48" alt="화면 캡처 2025-10-26 162234" src="https://github.com/user-attachments/assets/599bbd8f-6582-4184-9245-585feb0b96ae" />
 
-##### <img width="327" height="208" alt="image" src="https://github.com/user-attachments/assets/9f13feaa-7780-42f3-ac4b-bdb7fa1bb98b" />
-##### 브러쉬 툴
-##### 첫 이미지는 천장에, 두번째는 옆쪽에 있음
-##### 브러쉬 크기, 모양, 색, 다 바꾸기 가능 (aseprite랑 비슷함,, 알아서 적을할듯?)
-##### smooth 체크박스는 브러쉬 경계선을 부드럽게 만들어줌
-#####
-##### <img width="180" height="231" alt="image" src="https://github.com/user-attachments/assets/0a61c8f0-ae5e-4a97-b532-4aa81f52ec18" />
-##### 우클릭 브러쉬 색이랑 좌클릭 브러쉬 색을 설정/바꾸기 가능
-##### 위에 작은 팔레트는 내가 전에 썼던 색이 저장됨
-##### 
-##### 
-##### 
+##### ctrl + o : 불러오기 (open)
+<img width="200" height="48" alt="화면 캡처 2" src="https://github.com/user-attachments/assets/806ac6c1-de52-4fe5-b1a4-46ef93588dc8" />
+
+##### ctrl + s : 저장하기 (save) 
+<img width="200" height="48" alt="화면 캡처 3" src="https://github.com/user-attachments/assets/b04716ce-1d69-4388-a76a-a71ae8a5f8ec" />
+
+
+##### ctrl + f8 : 실행 파일 만들기 (게임을 독립된 파일로)
+<img width="200" height="48" alt="image" src="https://github.com/user-attachments/assets/4ca93557-07a3-4220-b07f-0df2044e2c17" />
+
+##### 선택 전에 먼저 뽑을 플랫폼 선택 (배포할때 window zip 파일로 하면 될듯?)
+##### <img width="500" height="543" alt="image" src="https://github.com/user-attachments/assets/113f515b-d38d-487c-b3ab-edadc1d7c9da" />
+---
+### 되게 중요한거
+##### 순서대로 디버그(f6), 실행(f5), 정지버튼, 컴파일러 캐시 삭제
+##### <img width="261" height="69" alt="image" src="https://github.com/user-attachments/assets/46622006-375e-451b-8166-1c94dacaff23" />
+##### 컴파일러 캐시는 실행(f5) 할때 남아도는 캐시가 에러를 만들 수 있으므로 주기적으로 눌러서 캐시를 지워주자
+##### 게임옵션(실행파일 만들때 파일 특징), 도움말
+##### <img width="109" height="57" alt="image" src="https://github.com/user-attachments/assets/7664ca3c-2b02-4cc0-afaa-56368f98f79c" />
+##### 게임 옵션에서 아이콘 바꾸기, 게임 이름, 저장장소 등 설정 가능
+##### 그리고 도움말 많이 보는 습관 기르기!
+--- 
+### 겜스 기본 구조
+#### 스프라이트 -> 오브젝트 -> 룸
+##### 스프라이트는 순수 그림
+##### 오브젝트는 수치연산과 출력
+##### 룸은 스프라이트와 오브젝트의 무대
