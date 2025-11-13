@@ -50,5 +50,6 @@
 ##### 위에 작은 팔레트는 내가 전에 썼던 색이 저장됨
 <img width="511" height="110" alt="image" src="https://github.com/user-attachments/assets/415d5999-1b96-490e-8ab8-8543ed4e30b2" />
 
+<img width="597" height="525" alt="image" src="https://github.com/user-attachments/assets/9479bfb3-e574-4da7-bb8d-e0f1ed65ec06" />
 
 
