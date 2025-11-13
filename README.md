@@ -48,7 +48,6 @@
 ##### <img width="180" height="231" alt="image" src="https://github.com/user-attachments/assets/0a61c8f0-ae5e-4a97-b532-4aa81f52ec18" />
 ##### 우클릭 브러쉬 색이랑 좌클릭 브러쉬 색을 설정/바꾸기 가능
 ##### 위에 작은 팔레트는 내가 전에 썼던 색이 저장됨
+<img width="195" height="84" alt="image" src="https://github.com/user-attachments/assets/5997ca3e-9801-4bf4-9b81-71acde81e713" />
 
-
-<img width="1087" height="64" alt="image" src="https://github.com/user-attachments/assets/bfcd9ff2-ab4f-4a22-a980-fa9b9807c035" />
 
